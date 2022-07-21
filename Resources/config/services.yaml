@@ -1,0 +1,8 @@
+services:
+  _defaults:
+    autowire: true
+    autoconfigure: true
+
+  FRZB\Component\PhpDocReader\:
+    resource: '../../{Resolver}/**'
+    exclude: '../../{Helper,Exception,Tests}/**'
