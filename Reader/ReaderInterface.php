@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace FRZB\Component\PhpDocReader;
+namespace FRZB\Component\PhpDocReader\Reader;
 
 use FRZB\Component\DependencyInjection\Attribute\AsAlias;
 use FRZB\Component\PhpDocReader\Exception\ReaderException;

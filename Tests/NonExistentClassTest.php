@@ -5,7 +5,7 @@ declare(strict_types=1);
 namespace FRZB\Component\PhpDocReader\Tests;
 
 use FRZB\Component\PhpDocReader\Exception\ReaderException;
-use FRZB\Component\PhpDocReader\ReaderService;
+use FRZB\Component\PhpDocReader\Reader\ReaderService;
 use FRZB\Component\PhpDocReader\Resolver\ResolverService;
 use FRZB\Component\PhpDocReader\Tests\FixturesNonExistentClass\Class1;
 use PHPUnit\Framework\TestCase;

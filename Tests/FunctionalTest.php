@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace FRZB\Component\PhpDocReader\Tests;
 
-use FRZB\Component\PhpDocReader\ReaderService;
+use FRZB\Component\PhpDocReader\Reader\ReaderService;
 use FRZB\Component\PhpDocReader\Resolver\ResolverService;
 use FRZB\Component\PhpDocReader\Tests\Fixtures\Class1;
 use FRZB\Component\PhpDocReader\Tests\Fixtures\Class2;

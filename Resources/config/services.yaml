@@ -4,5 +4,5 @@ services:
     autoconfigure: true
 
   FRZB\Component\PhpDocReader\:
-    resource: '../../{Resolver}/**'
+    resource: '../../{Reader,Resolver}/**'
     exclude: '../../{Helper,Exception,Tests}/**'
