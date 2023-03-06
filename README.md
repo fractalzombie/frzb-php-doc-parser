@@ -1,8 +1,16 @@
 # PhpDocReader
 
-[![CI](https://github.com/fractalzombie/frzb-php-doc-parser/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/fractalzombie/frzb-php-doc-parser/actions/workflows/ci.yml)
-
-Fork the README to add your project here.
+[![CI](https://github.com/fractalzombie/frzb-php-doc-parser/actions/workflows/build.yml/badge.svg?branch=master)](https://github.com/fractalzombie/frzb-php-doc-parser/actions/workflows/ci.yml)
+[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=fractalzombie_frzb-php-doc-parser&metric=bugs)](https://sonarcloud.io/summary/new_code?id=fractalzombie_frzb-php-doc-parser)
+[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=fractalzombie_frzb-php-doc-parser&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=fractalzombie_frzb-php-doc-parser)
+[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=fractalzombie_frzb-php-doc-parser&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=fractalzombie_frzb-php-doc-parser)
+[![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=fractalzombie_frzb-php-doc-parser&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=fractalzombie_frzb-php-doc-parser)
+[![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=fractalzombie_frzb-php-doc-parser&metric=ncloc)](https://sonarcloud.io/summary/new_code?id=fractalzombie_frzb-php-doc-parser)
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=fractalzombie_frzb-php-doc-parser&metric=coverage)](https://sonarcloud.io/summary/new_code?id=fractalzombie_frzb-php-doc-parser)
+[![Technical Debt](https://sonarcloud.io/api/project_badges/measure?project=fractalzombie_frzb-php-doc-parser&metric=sqale_index)](https://sonarcloud.io/summary/new_code?id=fractalzombie_frzb-php-doc-parser)
+[![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=fractalzombie_frzb-php-doc-parser&metric=reliability_rating)](https://sonarcloud.io/summary/new_code?id=fractalzombie_frzb-php-doc-parser)
+[![Duplicated Lines (%)](https://sonarcloud.io/api/project_badges/measure?project=fractalzombie_frzb-php-doc-parser&metric=duplicated_lines_density)](https://sonarcloud.io/summary/new_code?id=fractalzombie_frzb-php-doc-parser)
+[![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=fractalzombie_frzb-php-doc-parser&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=fractalzombie_frzb-php-doc-parser)
 
 ## Features
 

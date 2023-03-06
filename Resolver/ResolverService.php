@@ -39,14 +39,14 @@ class ResolverService implements ResolverServiceInterface
     /** Get the Fully Qualified Name of the provided type based on the reflection class and reflection member context, specifically searching through the traits that are used by the provided reflection class */
     public function getFullyQualifiedTypeNameFromTraits(string $typeName, \ReflectionClass $rClass, \Reflector $rMember): ?string
     {
-        $traits = ArrayList::empty();
+        $traits = [];
 
-        while ($rClass) {
-            $traits = ArrayList::collect([...$traits, ...$rClass->getTraits()]);
-            $rClass = $rClass->getParentClass();
+        while (null !== $rClass) {
+            $traits = [...$traits, ...$rClass?->getTraits()];
+            $rClass = $rClass->getParentClass() ?: null;
         }
 
-        return $traits
+        return ArrayList::collect($traits)
             ->filter(static fn (\ReflectionClass $trait) => match (true) {
                 $rMember instanceof \ReflectionProperty && !$trait->hasProperty($rMember->getName()) => null,
                 $rMember instanceof \ReflectionMethod && !$trait->hasMethod($rMember->getName()) => null,

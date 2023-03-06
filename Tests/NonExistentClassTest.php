@@ -23,7 +23,7 @@ class NonExistentClassTest extends TestCase
         $class = new \ReflectionClass(Class1::class);
 
         $this->expectException(ReaderException::class);
-        $this->expectDeprecationMessage(
+        $this->expectExceptionMessage(
             'The @var annotation on FRZB\Component\PhpDocReader\Tests\FixturesNonExistentClass\Class1::prop contains a non existent class "Foo". Did you maybe forget to add a "use" statement for this annotation?'
         );
 
@@ -36,7 +36,7 @@ class NonExistentClassTest extends TestCase
         $parameter = new \ReflectionParameter([Class1::class, 'foo'], 'param');
 
         $this->expectException(ReaderException::class);
-        $this->expectDeprecationMessage(
+        $this->expectExceptionMessage(
             'The @param annotation for parameter "param" of FRZB\Component\PhpDocReader\Tests\FixturesNonExistentClass\Class1::foo contains a non existent class "Foo". Did you maybe forget to add a "use" statement for this annotation?'
         );
 

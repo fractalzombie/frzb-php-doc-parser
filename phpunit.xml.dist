@@ -40,6 +40,8 @@
             <directory>vendor</directory>
             <file>.php-cs-fixer.dist.php</file>
             <file>bootstrap.php</file>
+            <file>PhpDocReaderBundle.php</file>
+            <file>PhpDocReaderExtension.php</file>
         </exclude>
     </coverage>
 
