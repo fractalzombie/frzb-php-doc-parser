@@ -34,7 +34,7 @@ class PrimitiveTypesTest extends TestCase
         $this->assertEquals($expectedType, $parser->getParameterType($parameter));
     }
 
-    public function typeProvider(): iterable
+    public static function typeProvider(): iterable
     {
         return [
             'bool' => ['bool', 'bool'],

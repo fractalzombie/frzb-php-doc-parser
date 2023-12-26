@@ -34,7 +34,7 @@ class UnknownTypesTest extends TestCase
         $this->assertNull($parser->getParameterClass($parameter));
     }
 
-    public function typeProvider(): iterable
+    public static function typeProvider(): iterable
     {
         return [
             'empty' => ['empty'],
